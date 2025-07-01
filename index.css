@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'score_font';
+    src: url("fonts/CursedTimerUlil.ttf");
+}
+
+@font-face {
+    font-family: 'verdana';
+    src: url("fonts/Verdana.ttf");
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1B244A;
+    padding-bottom: 40px;
+    width: 525px;
+}
+
+.container_display {
+    display: flex;
+    flex-direction: row;
+    background-color: #1B244A;
+    justify-content: center;
+    gap: 100px; 
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    color: #F94F6D;
+    font-family: 'score_font';
+    font-size: 90px;
+}
+
+.btn_score_group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 9px;
+}
+
+.btn_score {
+    width: 45px;
+    height: 45px;
+    font-family: 'score_font';
+    font-size: 18px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    font-family: 'verdana';
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 21px;
+}
+
+.btn_reset {
+    width: 150px;
+    height: 40px;
+    font-family: 'score_font';
+    font-size: 18px;
+    color: #F94F6D;
+    border: 5px solid #F94F6D;
+    border-radius: 5px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin: 30px auto 0 auto;
+}
+
+.btn_reset:hover {
+    background-color: #F94F6D;
+    color: #9AABD8; 
+}
